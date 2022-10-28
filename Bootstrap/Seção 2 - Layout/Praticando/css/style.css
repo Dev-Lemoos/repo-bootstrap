@@ -1,0 +1,22 @@
+.container {
+    margin-top: 20px;
+}
+
+.col {
+    border: 1px solid red;
+    padding: 10px;
+}
+
+.conteudos {
+    margin-top: 20px;
+}
+
+.conteudos .col:nth-child(1), .conteudos .col:nth-child(2), .conteudos .col:nth-child(3) {
+    margin-right: 5px;
+}
+
+.conteudos .col-12 {
+    margin-top: 20px;
+    background-color: red;
+    height: 100px;
+}
